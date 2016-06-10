@@ -1,0 +1,14 @@
+{
+  "name": "irccloud",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "exec $NODE server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "byline": "^4.2.1",
+    "ws": "^1.1.0"
+  }
+}
