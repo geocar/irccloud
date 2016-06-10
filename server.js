@@ -52,6 +52,9 @@ function connected(sock) {
     x = x.replace(/^:/,"");
     irc.authenticate(o.username = x, o.password)
   }
+  h.PART = (x) => {
+    irc.part(x);
+  };
   h.MODE = (x, y) => {
     if(x.match(/^#/)) {
       var m = channels[x];
